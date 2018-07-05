@@ -303,6 +303,11 @@ section.masthead {
     background: #087cf9;
     background: -webkit-linear-gradient(to left, #087cf9, #37dbf5);
     background: linear-gradient(to left, #087cf9, #37dbf5);
+    background-image: url("../img/background-min.jpg"), url("../img/background-hd.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    background-blend-mode: overlay, overlay;
+    resize: both;
 }
 
 section.masthead .header-content {
