@@ -307,7 +307,7 @@ section.masthead {
     background-repeat: no-repeat, no-repeat;
     background-size: cover, cover;
     background-blend-mode: overlay, overlay;
-    resize: both;
+    /*resize: both;*/
 }
 
 section.masthead .header-content {
@@ -322,7 +322,7 @@ section.masthead .device-mockup.iphone6_plus.white > .device {
 }
 
 section.masthead .header-content h1 {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 section.masthead .device-container {
@@ -353,7 +353,7 @@ section.masthead .device-container .screen img {
     }
 
     section.masthead .header-content h1 {
-        font-size: 40px;
+        font-size: 60px;
         font-weight: 700;
         margin: auto;
     }
