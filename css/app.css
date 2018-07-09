@@ -693,18 +693,18 @@ section.masthead .device-container .screen img {
 /*====================================================
                       TIMELINE
 ======================================================*/
-.timeline {
+.timeline1 {
     background: #087cf9;
     background: -webkit-linear-gradient(to left, #087cf9, #37dbf5);
     background: linear-gradient(to left, #087cf9, #37dbf5);
     padding: 80px 0;
 }
 
-.timeline h1 {
+.timeline1 h1 {
     color: white !important;
 }
 
-.timeline .children {
+.timeline1 .children {
     background-color: rgba(255, 255, 255, .1);
     border: 2px solid #fff;
     border-radius: 10px;
@@ -715,12 +715,12 @@ section.masthead .device-container .screen img {
     width: 300px;
 }
 
-.timeline .children::before {
+.timeline1 .children::before {
     height: 40px;
     top: -40px;
 }
 
-.timeline .children::before, .timeline .children:last-of-type::after {
+.timeline1 .children::before, .timeline .children:last-of-type::after {
     content: "";
     left: 50%;
     position: absolute;
@@ -728,7 +728,7 @@ section.masthead .device-container .screen img {
     background-color: #fff;
 }
 
-.timeline .children:last-of-type::after {
+.timeline1 .children:last-of-type::after {
     bottom: -120px;
     height: 120px;
     z-index: 1;
